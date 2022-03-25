@@ -8,7 +8,7 @@ export default class Panel extends Component {
     return (
       <section 
         className="dashboard__panel"
-        onClick={() => onSelect(id)}
+        onClick={onSelect}
       >
         <h1 className="dashboard__panel-header">{label}</h1>
         <h1 className="dashboard__panel- value">{value}</h1>
