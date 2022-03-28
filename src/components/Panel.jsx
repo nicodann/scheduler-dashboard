@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Panel extends Component {
   render() {
-    const { id, label, value, onSelect } = this.props;
+    const { label, value, onSelect } = this.props;
     console.log("label: ", label, "value: ", value)
 
     return (
